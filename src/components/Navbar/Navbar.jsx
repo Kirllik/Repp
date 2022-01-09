@@ -12,10 +12,10 @@ const Navbar = () => {
                 <NavLink to="/dialogs" activeClassName={s.activeLink}>Messages</NavLink>
             </div>
             <div className={s.item}>
-                <a>News</a>
+                <NavLink to="/news" activeClassName={s.activeLink}>News</NavLink>
             </div>
             <div className={s.item}>
-                <a>Music</a>
+                <NavLink to="/music55555" activeClassName={s.activeLink}>Music</NavLink>
             </div>
             <div className={s.item}>
                 <a>Settings</a>
