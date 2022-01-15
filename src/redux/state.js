@@ -10,7 +10,7 @@ let state = {
             {id: 3, message: 'Blabla', likesCount: 11},
             {id: 4, message: 'Dada', likesCount: 11}
         ],
-        newPostText: 'it-kamasutra.com'
+        /*newPostText: 'it-kamasutra.com'*/
     },
     dialogsPage: {
         dialogs: [
@@ -36,7 +36,7 @@ window.state = state;
 
 export const addPost = () => {
     let newPost = {
-        id: 5,
+        id: state.profilePage.posts.length + 1,
         message: state.profilePage.newPostText,
         likesCount: 0
     };
