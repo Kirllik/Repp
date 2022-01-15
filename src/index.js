@@ -18,7 +18,7 @@ let rerenderEntireTree = (state) => {
 
 rerenderEntireTree(state);  /*Вызов___ФУНКЦИ___*/
 
-subscribe(rerenderEntireTree);
+subscribe(rerenderEntireTree);   /*Колл_Бэк ф-ции в State(в данном примере) или там где её запустят*/
 
 
 // If you want your app to work offline and load faster, you can change

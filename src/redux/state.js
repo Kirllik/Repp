@@ -50,7 +50,7 @@ export const updateNewPostText = (newText) => {
     rerenderEntireTree(state);
 }
 
-export const subscribe = (observer) => {
+export const subscribe = (observer) => {    /*импортируемая Функция перерисовки дома, для её вызова в index.Js*/
     rerenderEntireTree = observer;  // observer
 }
 
